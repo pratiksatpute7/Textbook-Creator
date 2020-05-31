@@ -1,0 +1,2925 @@
+MACHINE LEARNING
+
+ The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. In unsupervised learning, the algorithm builds a mathematical model from a set of data which contains only inputs and no desired output labels. As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. Already in the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning. If the hypothesis is less complex than the function, then the model has underfit the data. If the complexity of the model is increased in response, then the training error decreases. The data is known as training data, and consists of a set of training examples. The algorithms therefore learn from test data that has not been labeled, classified or categorized. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). In supervised feature learning, features are learned using labeled input data. In unsupervised feature learning, features are learned with unlabeled input data. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. Performing machine learning involves creating a model, which is trained on some training data and then can process additional data to make predictions. However, over time, attention moved to performing specific tasks, leading to deviations from biology. It is one of the predictive modeling approaches used in statistics, data mining and machine learning. In machine learning, genetic algorithms were used in the 1980s and 1990s. Usually, machine learning models require a lot of data in order for them to perform well. Usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. However, these rates are ratios that fail to reveal their numerators and denominators.
+
+
+SVM
+
+ With this choice of a hyperplane, the points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+
+
+
+
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+k
+(
+
+x
+
+i
+
+
+,
+x
+)
+=
+
+constant
+
+. {\displaystyle \textstyle \sum _{i}\alpha _{i}k(x_{i},x)={\text{constant}}.} Each 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ is a 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-dimensional real vector. Any hyperplane can be written as the set of points 
+
+
+
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle}}
+
+ satisfying
+where 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ is the (not necessarily normalized) normal vector to the hyperplane. These 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ are called support vectors. This function is zero if the constraint in (1) is satisfied, in other words, if 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ lies on the correct side of the margin. w
+→
+
+
+
+⋅
+φ
+(
+
+
+
+x
+→
+
+
+
+)
+=
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+
+y
+
+i
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+
+{\displaystyle \textstyle}\cdot \varphi ({\vec})=\sum _{i}\alpha _{i}y_{i}k({\vec}_{i},{\vec})}
+
+. {\displaystyle y_{i}(w\cdot x_{i}-b)\geq 1-\zeta _{i}.} It follows that 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ can be written as a linear combination of the support vectors. {\displaystyle \varphi ({\vec}_{i}).} Moreover, we are given a kernel function 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ which satisfies 
+
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+=
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+)
+⋅
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+
+
+{\displaystyle k({\vec}_{i},{\vec}_{j})=\varphi ({\vec}_{i})\cdot \varphi ({\vec}_{j})}
+
+. To do so one forms a hypothesis, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, such that 
+
+
+
+f
+(
+
+X
+
+n
++
+1
+
+
+)
+
+
+{\displaystyle f(X_{n+1})}
+
+ is a "good" approximation of 
+
+
+
+
+y
+
+n
++
+1
+
+
+
+
+{\displaystyle y_{n+1}}
+
+. More generally, 
+
+
+
+
+
+R
+
+
+(
+f
+)
+
+
+{\displaystyle}(f)}
+
+ can be some measure of the complexity of the hypothesis 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, so that simpler hypotheses are preferred. In particular, let 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+ denote 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ conditional on the event that 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+. In fact, they give us enough information to completely describe the distribution of 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+. On the other hand, one can check that the target function for the hinge loss is exactly 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+MACHINE LEARNING
+
+ The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. In unsupervised learning, the algorithm builds a mathematical model from a set of data which contains only inputs and no desired output labels. As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. Already in the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning. If the hypothesis is less complex than the function, then the model has underfit the data. If the complexity of the model is increased in response, then the training error decreases. The data is known as training data, and consists of a set of training examples. The algorithms therefore learn from test data that has not been labeled, classified or categorized. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). In supervised feature learning, features are learned using labeled input data. In unsupervised feature learning, features are learned with unlabeled input data. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. Performing machine learning involves creating a model, which is trained on some training data and then can process additional data to make predictions. However, over time, attention moved to performing specific tasks, leading to deviations from biology. It is one of the predictive modeling approaches used in statistics, data mining and machine learning. In machine learning, genetic algorithms were used in the 1980s and 1990s. Usually, machine learning models require a lot of data in order for them to perform well. Usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. However, these rates are ratios that fail to reveal their numerators and denominators.
+
+
+SVM
+
+ With this choice of a hyperplane, the points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+
+
+
+
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+k
+(
+
+x
+
+i
+
+
+,
+x
+)
+=
+
+constant
+
+. {\displaystyle \textstyle \sum _{i}\alpha _{i}k(x_{i},x)={\text{constant}}.} Each 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ is a 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-dimensional real vector. Any hyperplane can be written as the set of points 
+
+
+
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle}}
+
+ satisfying
+where 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ is the (not necessarily normalized) normal vector to the hyperplane. These 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ are called support vectors. This function is zero if the constraint in (1) is satisfied, in other words, if 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ lies on the correct side of the margin. w
+→
+
+
+
+⋅
+φ
+(
+
+
+
+x
+→
+
+
+
+)
+=
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+
+y
+
+i
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+
+{\displaystyle \textstyle}\cdot \varphi ({\vec})=\sum _{i}\alpha _{i}y_{i}k({\vec}_{i},{\vec})}
+
+. {\displaystyle y_{i}(w\cdot x_{i}-b)\geq 1-\zeta _{i}.} It follows that 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ can be written as a linear combination of the support vectors. {\displaystyle \varphi ({\vec}_{i}).} Moreover, we are given a kernel function 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ which satisfies 
+
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+=
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+)
+⋅
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+
+
+{\displaystyle k({\vec}_{i},{\vec}_{j})=\varphi ({\vec}_{i})\cdot \varphi ({\vec}_{j})}
+
+. To do so one forms a hypothesis, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, such that 
+
+
+
+f
+(
+
+X
+
+n
++
+1
+
+
+)
+
+
+{\displaystyle f(X_{n+1})}
+
+ is a "good" approximation of 
+
+
+
+
+y
+
+n
++
+1
+
+
+
+
+{\displaystyle y_{n+1}}
+
+. More generally, 
+
+
+
+
+
+R
+
+
+(
+f
+)
+
+
+{\displaystyle}(f)}
+
+ can be some measure of the complexity of the hypothesis 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, so that simpler hypotheses are preferred. In particular, let 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+ denote 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ conditional on the event that 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+. In fact, they give us enough information to completely describe the distribution of 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+. On the other hand, one can check that the target function for the hinge loss is exactly 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+MACHINE LEARNING
+
+ The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. In unsupervised learning, the algorithm builds a mathematical model from a set of data which contains only inputs and no desired output labels. As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. Already in the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning. If the hypothesis is less complex than the function, then the model has underfit the data. If the complexity of the model is increased in response, then the training error decreases. The data is known as training data, and consists of a set of training examples. The algorithms therefore learn from test data that has not been labeled, classified or categorized. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). In supervised feature learning, features are learned using labeled input data. In unsupervised feature learning, features are learned with unlabeled input data. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. Performing machine learning involves creating a model, which is trained on some training data and then can process additional data to make predictions. However, over time, attention moved to performing specific tasks, leading to deviations from biology. It is one of the predictive modeling approaches used in statistics, data mining and machine learning. In machine learning, genetic algorithms were used in the 1980s and 1990s. Usually, machine learning models require a lot of data in order for them to perform well. Usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. However, these rates are ratios that fail to reveal their numerators and denominators.
+
+
+SVM
+
+ With this choice of a hyperplane, the points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+
+
+
+
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+k
+(
+
+x
+
+i
+
+
+,
+x
+)
+=
+
+constant
+
+. {\displaystyle \textstyle \sum _{i}\alpha _{i}k(x_{i},x)={\text{constant}}.} Each 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ is a 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-dimensional real vector. Any hyperplane can be written as the set of points 
+
+
+
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle}}
+
+ satisfying
+where 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ is the (not necessarily normalized) normal vector to the hyperplane. These 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ are called support vectors. This function is zero if the constraint in (1) is satisfied, in other words, if 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ lies on the correct side of the margin. w
+→
+
+
+
+⋅
+φ
+(
+
+
+
+x
+→
+
+
+
+)
+=
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+
+y
+
+i
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+
+{\displaystyle \textstyle}\cdot \varphi ({\vec})=\sum _{i}\alpha _{i}y_{i}k({\vec}_{i},{\vec})}
+
+. {\displaystyle y_{i}(w\cdot x_{i}-b)\geq 1-\zeta _{i}.} It follows that 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ can be written as a linear combination of the support vectors. {\displaystyle \varphi ({\vec}_{i}).} Moreover, we are given a kernel function 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ which satisfies 
+
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+=
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+)
+⋅
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+
+
+{\displaystyle k({\vec}_{i},{\vec}_{j})=\varphi ({\vec}_{i})\cdot \varphi ({\vec}_{j})}
+
+. To do so one forms a hypothesis, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, such that 
+
+
+
+f
+(
+
+X
+
+n
++
+1
+
+
+)
+
+
+{\displaystyle f(X_{n+1})}
+
+ is a "good" approximation of 
+
+
+
+
+y
+
+n
++
+1
+
+
+
+
+{\displaystyle y_{n+1}}
+
+. More generally, 
+
+
+
+
+
+R
+
+
+(
+f
+)
+
+
+{\displaystyle}(f)}
+
+ can be some measure of the complexity of the hypothesis 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, so that simpler hypotheses are preferred. In particular, let 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+ denote 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ conditional on the event that 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+. In fact, they give us enough information to completely describe the distribution of 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+. On the other hand, one can check that the target function for the hinge loss is exactly 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+MACHINE LEARNING
+
+ The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. In unsupervised learning, the algorithm builds a mathematical model from a set of data which contains only inputs and no desired output labels. As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. Already in the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning. If the hypothesis is less complex than the function, then the model has underfit the data. If the complexity of the model is increased in response, then the training error decreases. The data is known as training data, and consists of a set of training examples. The algorithms therefore learn from test data that has not been labeled, classified or categorized. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). In supervised feature learning, features are learned using labeled input data. In unsupervised feature learning, features are learned with unlabeled input data. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. Performing machine learning involves creating a model, which is trained on some training data and then can process additional data to make predictions. However, over time, attention moved to performing specific tasks, leading to deviations from biology. It is one of the predictive modeling approaches used in statistics, data mining and machine learning. In machine learning, genetic algorithms were used in the 1980s and 1990s. Usually, machine learning models require a lot of data in order for them to perform well. Usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. However, these rates are ratios that fail to reveal their numerators and denominators.
+
+
+SVM
+
+ With this choice of a hyperplane, the points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+
+
+
+
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+k
+(
+
+x
+
+i
+
+
+,
+x
+)
+=
+
+constant
+
+. {\displaystyle \textstyle \sum _{i}\alpha _{i}k(x_{i},x)={\text{constant}}.} Each 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ is a 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-dimensional real vector. Any hyperplane can be written as the set of points 
+
+
+
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle}}
+
+ satisfying
+where 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ is the (not necessarily normalized) normal vector to the hyperplane. These 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ are called support vectors. This function is zero if the constraint in (1) is satisfied, in other words, if 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ lies on the correct side of the margin. w
+→
+
+
+
+⋅
+φ
+(
+
+
+
+x
+→
+
+
+
+)
+=
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+
+y
+
+i
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+
+{\displaystyle \textstyle}\cdot \varphi ({\vec})=\sum _{i}\alpha _{i}y_{i}k({\vec}_{i},{\vec})}
+
+. {\displaystyle y_{i}(w\cdot x_{i}-b)\geq 1-\zeta _{i}.} It follows that 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ can be written as a linear combination of the support vectors. {\displaystyle \varphi ({\vec}_{i}).} Moreover, we are given a kernel function 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ which satisfies 
+
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+=
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+)
+⋅
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+
+
+{\displaystyle k({\vec}_{i},{\vec}_{j})=\varphi ({\vec}_{i})\cdot \varphi ({\vec}_{j})}
+
+. To do so one forms a hypothesis, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, such that 
+
+
+
+f
+(
+
+X
+
+n
++
+1
+
+
+)
+
+
+{\displaystyle f(X_{n+1})}
+
+ is a "good" approximation of 
+
+
+
+
+y
+
+n
++
+1
+
+
+
+
+{\displaystyle y_{n+1}}
+
+. More generally, 
+
+
+
+
+
+R
+
+
+(
+f
+)
+
+
+{\displaystyle}(f)}
+
+ can be some measure of the complexity of the hypothesis 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, so that simpler hypotheses are preferred. In particular, let 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+ denote 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ conditional on the event that 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+. In fact, they give us enough information to completely describe the distribution of 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+. On the other hand, one can check that the target function for the hinge loss is exactly 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+MAHENDRA SINGH DHONI
+
+ Dhoni has been the recipient of many awards, including the ICC ODI Player of the Year award in 2008 and 2009 (the first player to win the award twice), the Rajiv Gandhi Khel Ratna award in 2007, the Padma Shri, India's fourth highest civilian honour, in 2009 and the Padma Bhushan, India's third highest civilian honour, in 2018. Dhoni holds the post of Vice-President of India Cements Ltd., after resigning from Air India. Dhoni: The Untold Story was made about him. Dhoni has a sister Jayanti Gupta and a brother Narendra Singh Dhoni. His colleagues remember him as a very honest, straightforward employee of the Indian Railways. Dhoni has credited Deval Sahay for instilling discipline in him . Dhoni did not have a great start to his ODI career, getting run out for a duck on debut. In spite of an average series against Bangladesh, Dhoni was picked for the Pakistan ODI series. Dhoni had few batting opportunities in the first two games of the Sri Lankan bilateral ODI series (October–November 2005) and was promoted to No. However, the team finished poorly scoring just 43 runs in the last eight overs and lost the match due to Duckworth-Lewis method. Dhoni had a good Afro-Asia Cup, scoring 174 runs in 3 matches at an average of 87.00, with a blitzkrieg 139 not out off 97 balls, a Man of the Match innings, in the third ODI. Dhoni had an excellent year in ODIs in 2009, scoring 1198 runs in just 24 innings, at an astonishing average of 70.43. However, his field placements and tactics came handy, the team was successful beating the opposition by five runs (D/L method). Meanwhile, he scored his 8000th run in ODI cricket on the tour. Dhoni had a good performance with the bat scoring a half century in each of the series. Dhoni himself managed just 70 runs from three innings averaging 23.34. The century, his tenth in ODIs, was his first in over three years. However, he was included in the squad named for the ODI series there. Following his good one-day performance against Sri Lanka, Dhoni replaced Dinesh Karthik in December 2005 as the Indian teams' Test wicket-keeper. However, Dhoni and the Indian fielders dropped catches and missed many dismissal chances, including a key stumping opportunity of Andrew Flintoff (14). Following the third Test in Melbourne, Dhoni announced his retirement from the format. Dhoni had previously captained India on a stand-in basis against South Africa and Australia, in 2008 and 2009 respectively. It was under his captaincy that India climbed to No. Dhoni has captained India in two World Cups. Thus, India was out of the world cup in the very first round. Under Dhoni's captaincy, India won the 2011 World Cup. However, they lost to host Australia in the semi-finals held at the Sydney Cricket Ground. However, his team finished in 7th place. A biographical film based on the life of Dhoni, titled M.S. Dhoni: The Untold Story, was released on 30 September 2016. Dhoni: The Untold Story.
+
+
+MACHINE LEARNING
+
+ The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. In unsupervised learning, the algorithm builds a mathematical model from a set of data which contains only inputs and no desired output labels. As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. Already in the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning. If the hypothesis is less complex than the function, then the model has underfit the data. If the complexity of the model is increased in response, then the training error decreases. The data is known as training data, and consists of a set of training examples. The algorithms therefore learn from test data that has not been labeled, classified or categorized. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). In supervised feature learning, features are learned using labeled input data. In unsupervised feature learning, features are learned with unlabeled input data. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. Performing machine learning involves creating a model, which is trained on some training data and then can process additional data to make predictions. However, over time, attention moved to performing specific tasks, leading to deviations from biology. It is one of the predictive modeling approaches used in statistics, data mining and machine learning. In machine learning, genetic algorithms were used in the 1980s and 1990s. Usually, machine learning models require a lot of data in order for them to perform well. Usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. However, these rates are ratios that fail to reveal their numerators and denominators.
+
+
+SVM
+
+ With this choice of a hyperplane, the points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+
+
+
+
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+k
+(
+
+x
+
+i
+
+
+,
+x
+)
+=
+
+constant
+
+. {\displaystyle \textstyle \sum _{i}\alpha _{i}k(x_{i},x)={\text{constant}}.} Each 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ is a 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-dimensional real vector. Any hyperplane can be written as the set of points 
+
+
+
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle}}
+
+ satisfying
+where 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ is the (not necessarily normalized) normal vector to the hyperplane. These 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ are called support vectors. This function is zero if the constraint in (1) is satisfied, in other words, if 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ lies on the correct side of the margin. w
+→
+
+
+
+⋅
+φ
+(
+
+
+
+x
+→
+
+
+
+)
+=
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+
+y
+
+i
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+
+{\displaystyle \textstyle}\cdot \varphi ({\vec})=\sum _{i}\alpha _{i}y_{i}k({\vec}_{i},{\vec})}
+
+. {\displaystyle y_{i}(w\cdot x_{i}-b)\geq 1-\zeta _{i}.} It follows that 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ can be written as a linear combination of the support vectors. {\displaystyle \varphi ({\vec}_{i}).} Moreover, we are given a kernel function 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ which satisfies 
+
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+=
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+)
+⋅
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+
+
+{\displaystyle k({\vec}_{i},{\vec}_{j})=\varphi ({\vec}_{i})\cdot \varphi ({\vec}_{j})}
+
+. To do so one forms a hypothesis, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, such that 
+
+
+
+f
+(
+
+X
+
+n
++
+1
+
+
+)
+
+
+{\displaystyle f(X_{n+1})}
+
+ is a "good" approximation of 
+
+
+
+
+y
+
+n
++
+1
+
+
+
+
+{\displaystyle y_{n+1}}
+
+. More generally, 
+
+
+
+
+
+R
+
+
+(
+f
+)
+
+
+{\displaystyle}(f)}
+
+ can be some measure of the complexity of the hypothesis 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, so that simpler hypotheses are preferred. In particular, let 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+ denote 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ conditional on the event that 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+. In fact, they give us enough information to completely describe the distribution of 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+. On the other hand, one can check that the target function for the hinge loss is exactly 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+MAHENDRA SINGH DHONI
+
+ Dhoni has been the recipient of many awards, including the ICC ODI Player of the Year award in 2008 and 2009 (the first player to win the award twice), the Rajiv Gandhi Khel Ratna award in 2007, the Padma Shri, India's fourth highest civilian honour, in 2009 and the Padma Bhushan, India's third highest civilian honour, in 2018. Dhoni holds the post of Vice-President of India Cements Ltd., after resigning from Air India. Dhoni: The Untold Story was made about him. Dhoni has a sister Jayanti Gupta and a brother Narendra Singh Dhoni. His colleagues remember him as a very honest, straightforward employee of the Indian Railways. Dhoni has credited Deval Sahay for instilling discipline in him . Dhoni did not have a great start to his ODI career, getting run out for a duck on debut. In spite of an average series against Bangladesh, Dhoni was picked for the Pakistan ODI series. Dhoni had few batting opportunities in the first two games of the Sri Lankan bilateral ODI series (October–November 2005) and was promoted to No. However, the team finished poorly scoring just 43 runs in the last eight overs and lost the match due to Duckworth-Lewis method. Dhoni had a good Afro-Asia Cup, scoring 174 runs in 3 matches at an average of 87.00, with a blitzkrieg 139 not out off 97 balls, a Man of the Match innings, in the third ODI. Dhoni had an excellent year in ODIs in 2009, scoring 1198 runs in just 24 innings, at an astonishing average of 70.43. However, his field placements and tactics came handy, the team was successful beating the opposition by five runs (D/L method). Meanwhile, he scored his 8000th run in ODI cricket on the tour. Dhoni had a good performance with the bat scoring a half century in each of the series. Dhoni himself managed just 70 runs from three innings averaging 23.34. The century, his tenth in ODIs, was his first in over three years. However, he was included in the squad named for the ODI series there. Following his good one-day performance against Sri Lanka, Dhoni replaced Dinesh Karthik in December 2005 as the Indian teams' Test wicket-keeper. However, Dhoni and the Indian fielders dropped catches and missed many dismissal chances, including a key stumping opportunity of Andrew Flintoff (14). Following the third Test in Melbourne, Dhoni announced his retirement from the format. Dhoni had previously captained India on a stand-in basis against South Africa and Australia, in 2008 and 2009 respectively. It was under his captaincy that India climbed to No. Dhoni has captained India in two World Cups. Thus, India was out of the world cup in the very first round. Under Dhoni's captaincy, India won the 2011 World Cup. However, they lost to host Australia in the semi-finals held at the Sydney Cricket Ground. However, his team finished in 7th place. A biographical film based on the life of Dhoni, titled M.S. Dhoni: The Untold Story, was released on 30 September 2016. Dhoni: The Untold Story.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+MS DHONI
+
+ Dhoni has been the recipient of many awards, including the ICC ODI Player of the Year award in 2008 and 2009 (the first player to win the award twice), the Rajiv Gandhi Khel Ratna award in 2007, the Padma Shri, India's fourth highest civilian honour, in 2009 and the Padma Bhushan, India's third highest civilian honour, in 2018. Dhoni holds the post of Vice-President of India Cements Ltd., after resigning from Air India. Dhoni: The Untold Story was made about him. Dhoni has a sister Jayanti Gupta and a brother Narendra Singh Dhoni. His colleagues remember him as a very honest, straightforward employee of the Indian Railways. Dhoni has credited Deval Sahay for instilling discipline in him . Dhoni did not have a great start to his ODI career, getting run out for a duck on debut. In spite of an average series against Bangladesh, Dhoni was picked for the Pakistan ODI series. Dhoni had few batting opportunities in the first two games of the Sri Lankan bilateral ODI series (October–November 2005) and was promoted to No. However, the team finished poorly scoring just 43 runs in the last eight overs and lost the match due to Duckworth-Lewis method. Dhoni had a good Afro-Asia Cup, scoring 174 runs in 3 matches at an average of 87.00, with a blitzkrieg 139 not out off 97 balls, a Man of the Match innings, in the third ODI. Dhoni had an excellent year in ODIs in 2009, scoring 1198 runs in just 24 innings, at an astonishing average of 70.43. However, his field placements and tactics came handy, the team was successful beating the opposition by five runs (D/L method). Meanwhile, he scored his 8000th run in ODI cricket on the tour. Dhoni had a good performance with the bat scoring a half century in each of the series. Dhoni himself managed just 70 runs from three innings averaging 23.34. The century, his tenth in ODIs, was his first in over three years. However, he was included in the squad named for the ODI series there. Following his good one-day performance against Sri Lanka, Dhoni replaced Dinesh Karthik in December 2005 as the Indian teams' Test wicket-keeper. However, Dhoni and the Indian fielders dropped catches and missed many dismissal chances, including a key stumping opportunity of Andrew Flintoff (14). Following the third Test in Melbourne, Dhoni announced his retirement from the format. Dhoni had previously captained India on a stand-in basis against South Africa and Australia, in 2008 and 2009 respectively. It was under his captaincy that India climbed to No. Dhoni has captained India in two World Cups. Thus, India was out of the world cup in the very first round. Under Dhoni's captaincy, India won the 2011 World Cup. However, they lost to host Australia in the semi-finals held at the Sydney Cricket Ground. However, his team finished in 7th place. A biographical film based on the life of Dhoni, titled M.S. Dhoni: The Untold Story, was released on 30 September 2016. Dhoni: The Untold Story.
+
+
+MACHINE LEARNING
+
+ The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. In unsupervised learning, the algorithm builds a mathematical model from a set of data which contains only inputs and no desired output labels. As a scientific endeavor, machine learning grew out of the quest for artificial intelligence. Already in the early days of AI as an academic discipline, some researchers were interested in having machines learn from data. Some statisticians have adopted methods from machine learning, leading to a combined field that they call statistical learning. If the hypothesis is less complex than the function, then the model has underfit the data. If the complexity of the model is increased in response, then the training error decreases. The data is known as training data, and consists of a set of training examples. The algorithms therefore learn from test data that has not been labeled, classified or categorized. In machine learning, the environment is typically represented as a Markov Decision Process (MDP). In supervised feature learning, features are learned using labeled input data. In unsupervised feature learning, features are learned with unlabeled input data. However, real-world data such as images, video, and sensory data has not yielded to attempts to algorithmically define specific features. Performing machine learning involves creating a model, which is trained on some training data and then can process additional data to make predictions. However, over time, attention moved to performing specific tasks, leading to deviations from biology. It is one of the predictive modeling approaches used in statistics, data mining and machine learning. In machine learning, genetic algorithms were used in the 1980s and 1990s. Usually, machine learning models require a lot of data in order for them to perform well. Usually, when training a machine learning model, one needs to collect a large, representative sample of data from a training set. However, these rates are ratios that fail to reveal their numerators and denominators.
+
+
+SVM
+
+ With this choice of a hyperplane, the points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+
+
+
+
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+k
+(
+
+x
+
+i
+
+
+,
+x
+)
+=
+
+constant
+
+. {\displaystyle \textstyle \sum _{i}\alpha _{i}k(x_{i},x)={\text{constant}}.} Each 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ is a 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-dimensional real vector. Any hyperplane can be written as the set of points 
+
+
+
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle}}
+
+ satisfying
+where 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ is the (not necessarily normalized) normal vector to the hyperplane. These 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ are called support vectors. This function is zero if the constraint in (1) is satisfied, in other words, if 
+
+
+
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+
+
+{\displaystyle}_{i}}
+
+ lies on the correct side of the margin. w
+→
+
+
+
+⋅
+φ
+(
+
+
+
+x
+→
+
+
+
+)
+=
+
+∑
+
+i
+
+
+
+α
+
+i
+
+
+
+y
+
+i
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+
+{\displaystyle \textstyle}\cdot \varphi ({\vec})=\sum _{i}\alpha _{i}y_{i}k({\vec}_{i},{\vec})}
+
+. {\displaystyle y_{i}(w\cdot x_{i}-b)\geq 1-\zeta _{i}.} It follows that 
+
+
+
+
+
+
+w
+→
+
+
+
+
+
+{\displaystyle}}
+
+ can be written as a linear combination of the support vectors. {\displaystyle \varphi ({\vec}_{i}).} Moreover, we are given a kernel function 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ which satisfies 
+
+
+
+k
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+,
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+=
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+i
+
+
+)
+⋅
+φ
+(
+
+
+
+
+x
+→
+
+
+
+
+j
+
+
+)
+
+
+{\displaystyle k({\vec}_{i},{\vec}_{j})=\varphi ({\vec}_{i})\cdot \varphi ({\vec}_{j})}
+
+. To do so one forms a hypothesis, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, such that 
+
+
+
+f
+(
+
+X
+
+n
++
+1
+
+
+)
+
+
+{\displaystyle f(X_{n+1})}
+
+ is a "good" approximation of 
+
+
+
+
+y
+
+n
++
+1
+
+
+
+
+{\displaystyle y_{n+1}}
+
+. More generally, 
+
+
+
+
+
+R
+
+
+(
+f
+)
+
+
+{\displaystyle}(f)}
+
+ can be some measure of the complexity of the hypothesis 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, so that simpler hypotheses are preferred. In particular, let 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+ denote 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ conditional on the event that 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+. In fact, they give us enough information to completely describe the distribution of 
+
+
+
+
+y
+
+x
+
+
+
+
+{\displaystyle y_{x}}
+
+. On the other hand, one can check that the target function for the hinge loss is exactly 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+VIRAT KOHLI
+
+ His father, Prem Kohli, worked as a criminal lawyer and his mother, Saroj Kohli, is a housewife. He just wouldn’t leave." There were tough times for the family... It's all embedded in my memory." I miss his presence sometimes." He took every match seriously. Now, he looked like he was chasing his father's dream which was his own too." He had scores of 37, 25 and 31 in the other three matches. India won the series 3–2 which was India's first ODI series win against Sri Lanka in Sri Lanka. Some of the shots he played spoke about his ability." India won by seven wickets to seal the series 3–1. The man of the match was awarded to Gambhir who gave the award to Kohli. India went on to win the Test series 1–0 but Kohli amassed just 76 runs from five innings, struggling against the short ball and was particularly troubled by the fast bowling of Edwards, who dismissed him three times in the series. India won the subsequent ODI series 4–1 in which Kohli managed to accumulate 243 runs at 60.75. India won the series 4–1 and on account of scoring the most runs in the series, Kohli was named player of the series. India won the two-match series 2–0, and Kohli averaged 106 with one hundred and two fifties from three innings. India went on to secure a five-run win and their second consecutive ICC ODI tournament victory. India lost the match by one wicket, and Dhoni was subsequently ruled out of the series with Kohli being named the captain for the remaining matches. India lost the match by two wickets, but took the series 2–1 after winning the last match at Kanpur. India were knocked out of the tournament after narrow losses against Sri Lanka and Pakistan, in which Kohli scored 48 and 5 respectively. Every time Kohli came in, all he did was bowl at off stump, around the corridor of uncertainty and Kohli nicked it. India won the ODI series that followed 3–1, but Kohli's struggles with the bat continued with an average of 18 in four innings. India lost the match by three runs, but Kohli reached the number one spot for T20I batsmen in the ICC rankings. India went on to post 307 in 50 overs and register a 130-run victory in the match. India went on to secure wins in these four fixtures and top the Pool B points with an undefeated record. India was eliminated in the semi-final by Australia at Melbourne, where Kohli was dismissed for 1 off 13 balls, top-edging a short-pitched delivery from Mitchell Johnson. India lost the series after a defeat in the final ODI and Kohli finished the series with an average of 49. India went on to wrap the series 2–0 and briefly top the ICC Test Rankings before being displaced by Pakistan at the position. India won the ODI series 5–1, Kohli becoming the first Indian captain to win an ODI series in South Africa. On 2 August, Kohli scored his first Test century on English soil in the first test match of the series against England. On 5 August, Kohli displaced Steve Smith to become the No. He had scored 82 in the third test at MCG, in which India won. Overall. India lost the semi-final against New Zealand, in which Kohli was out for just a run. He had an indifferent 2008 season, with a total of 165 runs in 12 innings at an average of 15.00 and a strike rate of 105.09. He added, "It's a business venture for me for the future. He had that spark.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+MAHENDRA SINGH DHONI
+
+ Dhoni has been the recipient of many awards, including the ICC ODI Player of the Year award in 2008 and 2009 (the first player to win the award twice), the Rajiv Gandhi Khel Ratna award in 2007, the Padma Shri, India's fourth highest civilian honour, in 2009 and the Padma Bhushan, India's third highest civilian honour, in 2018. Dhoni holds the post of Vice-President of India Cements Ltd., after resigning from Air India. Dhoni: The Untold Story was made about him. Dhoni has a sister Jayanti Gupta and a brother Narendra Singh Dhoni. His colleagues remember him as a very honest, straightforward employee of the Indian Railways. Dhoni has credited Deval Sahay for instilling discipline in him . Dhoni did not have a great start to his ODI career, getting run out for a duck on debut. In spite of an average series against Bangladesh, Dhoni was picked for the Pakistan ODI series. Dhoni had few batting opportunities in the first two games of the Sri Lankan bilateral ODI series (October–November 2005) and was promoted to No. However, the team finished poorly scoring just 43 runs in the last eight overs and lost the match due to Duckworth-Lewis method. Dhoni had a good Afro-Asia Cup, scoring 174 runs in 3 matches at an average of 87.00, with a blitzkrieg 139 not out off 97 balls, a Man of the Match innings, in the third ODI. Dhoni had an excellent year in ODIs in 2009, scoring 1198 runs in just 24 innings, at an astonishing average of 70.43. However, his field placements and tactics came handy, the team was successful beating the opposition by five runs (D/L method). Meanwhile, he scored his 8000th run in ODI cricket on the tour. Dhoni had a good performance with the bat scoring a half century in each of the series. Dhoni himself managed just 70 runs from three innings averaging 23.34. The century, his tenth in ODIs, was his first in over three years. However, he was included in the squad named for the ODI series there. Following his good one-day performance against Sri Lanka, Dhoni replaced Dinesh Karthik in December 2005 as the Indian teams' Test wicket-keeper. However, Dhoni and the Indian fielders dropped catches and missed many dismissal chances, including a key stumping opportunity of Andrew Flintoff (14). Following the third Test in Melbourne, Dhoni announced his retirement from the format. Dhoni had previously captained India on a stand-in basis against South Africa and Australia, in 2008 and 2009 respectively. It was under his captaincy that India climbed to No. Dhoni has captained India in two World Cups. Thus, India was out of the world cup in the very first round. Under Dhoni's captaincy, India won the 2011 World Cup. However, they lost to host Australia in the semi-finals held at the Sydney Cricket Ground. However, his team finished in 7th place. A biographical film based on the life of Dhoni, titled M.S. Dhoni: The Untold Story, was released on 30 September 2016. Dhoni: The Untold Story.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+MS DHONI
+
+ Dhoni has been the recipient of many awards, including the ICC ODI Player of the Year award in 2008 and 2009 (the first player to win the award twice), the Rajiv Gandhi Khel Ratna award in 2007, the Padma Shri, India's fourth highest civilian honour, in 2009 and the Padma Bhushan, India's third highest civilian honour, in 2018. Dhoni holds the post of Vice-President of India Cements Ltd., after resigning from Air India. Dhoni: The Untold Story was made about him. Dhoni has a sister Jayanti Gupta and a brother Narendra Singh Dhoni. His colleagues remember him as a very honest, straightforward employee of the Indian Railways. Dhoni has credited Deval Sahay for instilling discipline in him . Dhoni did not have a great start to his ODI career, getting run out for a duck on debut. In spite of an average series against Bangladesh, Dhoni was picked for the Pakistan ODI series. Dhoni had few batting opportunities in the first two games of the Sri Lankan bilateral ODI series (October–November 2005) and was promoted to No. However, the team finished poorly scoring just 43 runs in the last eight overs and lost the match due to Duckworth-Lewis method. Dhoni had a good Afro-Asia Cup, scoring 174 runs in 3 matches at an average of 87.00, with a blitzkrieg 139 not out off 97 balls, a Man of the Match innings, in the third ODI. Dhoni had an excellent year in ODIs in 2009, scoring 1198 runs in just 24 innings, at an astonishing average of 70.43. However, his field placements and tactics came handy, the team was successful beating the opposition by five runs (D/L method). Meanwhile, he scored his 8000th run in ODI cricket on the tour. Dhoni had a good performance with the bat scoring a half century in each of the series. Dhoni himself managed just 70 runs from three innings averaging 23.34. The century, his tenth in ODIs, was his first in over three years. However, he was included in the squad named for the ODI series there. Following his good one-day performance against Sri Lanka, Dhoni replaced Dinesh Karthik in December 2005 as the Indian teams' Test wicket-keeper. However, Dhoni and the Indian fielders dropped catches and missed many dismissal chances, including a key stumping opportunity of Andrew Flintoff (14). Following the third Test in Melbourne, Dhoni announced his retirement from the format. Dhoni had previously captained India on a stand-in basis against South Africa and Australia, in 2008 and 2009 respectively. It was under his captaincy that India climbed to No. Dhoni has captained India in two World Cups. Thus, India was out of the world cup in the very first round. Under Dhoni's captaincy, India won the 2011 World Cup. However, they lost to host Australia in the semi-finals held at the Sydney Cricket Ground. However, his team finished in 7th place. A biographical film based on the life of Dhoni, titled M.S. Dhoni: The Untold Story, was released on 30 September 2016. Dhoni: The Untold Story.
+
+
+CRICKET
+
+ The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). When ten players have been dismissed, the innings ends and the teams swap roles. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In cricket's case, a key difference is the existence of a solid target structure, the wicket (originally, it is thought, a "wicket gate" through which sheep were herded), that the batsman must defend. In Samuel Johnson's Dictionary, he derived cricket from "cryce, Saxon, a stick". Along with prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. As it was sure to produce a result, limited overs cricket was lucrative and the number of matches increased. In cricket, the rules of the game are specified in a code called The Laws of Cricket (hereinafter called "the Laws") which has a global remit. During an innings, all eleven members of the fielding team take the field, but usually only two members of the batting team are on the field at any given time. i) A used white ball. The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical handle. During matches, the quality of the ball deteriorates to a point where it is no longer usable, and during the course of this deterioration its behaviour in flight will change and can influence the outcome of the match. During normal play, thirteen players and two umpires are on the field. Three members of the fielding team (4, 10 & 11; wearing dark blue) are in shot. Of the eleven fielders, three are in shot in the image above. Depending on their primary skills, the other ten players in the team tend to be classified as specialist batsmen or specialist bowlers. Depending on the type of match being played, each team has either one or two innings. when six balls have been bowled. The batsmen do not change ends at the end of the over, and so the one who was non-striker is now the striker and vice-versa. "); when intervals start and end; and the suitability of the pitch, field and weather for playing the game. curve) in flight. The batsman has to be very wary of such deliveries as they are often "flighted" or spun so that the ball will not behave quite as he expects and he could be "trapped" into getting himself out. "; otherwise, he will shake his head and say "Not out". The batsman does not have to play a shot and can allow the ball to go through to the wicketkeeper. Equally, he does not have to attempt a run when he hits the ball with his bat. The batsman on strike (i.e. Limited overs cricket is always scheduled for completion in a single day. In 1969, a national league competition was established. Limited overs matches cannot be drawn, although a tie is possible and an unfinished match is a "no result". In Australia, the first-class teams represent the various states. It originated as a term for difficult batting conditions in cricket, caused by a damp and soft pitch. Francis Bacon, an avid cricket fan, captured a batsman in motion.
+
+
+RAHUL DRAVID
+
+ Dravid holds a unique record of never getting out for a Golden duck in the 286 Test innings which he has played. Dravid has also been honoured with the Padma Shri and the Padma Bhushan award, India's fourth and third highest civilian awards respectively. Dravid was born in a Marathi Deshastha Brahmin family in Indore, Madhya Pradesh. His family later moved to Bangalore, Karnataka, where he was raised. Dravid has a younger brother named Vijay. Dravid started playing cricket at the age of 12, and represented Karnataka at the under-15, the under-17 and the under-19 levels. Dravid scored a century for his school team. Dravid made his Ranji Trophy debut in February 1991, while still attending college. Dravid eventually made his international debut on 3 April 1996 in an ODI against Sri Lanka in the Singer Cup held in Singapore immediately after the 1996 World Cup, replacing Vinod Kambli. In contrast to his ODI debut, his Test debut was rather successful one. Dravid was selected for the Indian squad touring England on the backdrop of a consistent performance in domestic cricket for five years. Dravid had already been informed that he would play if Manjrekar fails the test. His face lit up. Dravid scored 95 runs before getting out to the bowling of Chris Lewis. Dravid concluded a successful debut series with an impressive average of 62.33 from two Test matches. Batting at no. 6, he scored 40 runs in the first innings. Dravid batted at no. Dravid continued in the same vein in the West Indies where he once again top scored for India in the five–match Test series aggregating 360 runs at an average of 72.00 including four fifties. Dravid continued his good run scoring seven fifties in the next eight Tests that included fifties in six consecutive innings (three each against Sri Lanka and Australia), becoming only the second Indian to do so after Gundappa Vishwanath. Dravid top scored in both the innings against Zimbabwe scoring 118 and 44 runs respectively however, India lost the one-off Test. Dravid topped the runs table for the series with 321 runs from two matches at an average of 107.00 but could not prevent India from losing the series 0–1. Later that month, India played a two Test home series against Pakistan. Dravid didn't contribute much with the bat. India lost the First Test but won the Second Test in Delhi riding on Kumble's historic 10-wicket haul. Dravid played his part in the 10-wicket haul by taking a catch to dismiss Mushtaq Ahmed who was Kumble's eighth victim of the innings. Dravid couldn't do much with the bat as India went on to lose the riot-affected First Test of the championship against Pakistan at the Eden Gardens. Dravid scored his fourth hundred of the season at Colombo in the first innings of the match. Dravid tasted first success of his ODI career in the 1996 'Friendship' Cup against Pakistan in the tough conditions of Toronto. Dravid top scored for India in the quadrangular event with 189 runs from three games at an average of 94.50 and a strike rate of 75.60 however, India failed to qualify for the Final of the series. The hundred came in a losing cause. Dravid scored a hundred against Sri Lanka in 1998/99 Pepsi Cup at Nagpur adding a record 236 runs for the 2nd wicket with Ganguly, who also scored a hundred in the match. Dravid warmed up for his debut World Cup with two fifties in the 1998–99 Coca-Cola Cup in Sharjah, one each against England and Pakistan. Dravid announced his form in England hitting consecutive fifties against Leicestershire and Nottinghamshire in the warm-up games. India lost both the games. Dravid put up a partnership of 237 runs with Sachin Tendulkar against Kenya at Bristol – a World Cup record – and in the process hit his maiden World Cup hundred, helping India to a 94-run victory. Dravid once again staged a record breaking partnership worth 318 runs – the first ever three hundred run partnership in ODI history – but this time with Sourav Ganguly, guiding India to a 157-run win. Dravid scored 145 runs from 129 balls with 17 fours and a six, becoming the second batsman in World Cup history to hit back-to-back hundreds. Dravid struck a fine fifty in the last group match as India defeated England to advance into the Super Six stage. Dravid scored 2, 61 & 29 in the three Super Six matches against Australia, Pakistan & New Zealand respectively. Dravid emerged as the top scorer of the tournament with 461 runs from 8 games at an average of 65.85 and a strike rate of 85.52. Dravid topped the international runs chart for 1999 cricket season across all formats scoring 782 runs from 19 matches. Dravid kick-started his post World Cup Test season with a decent outing against New Zealand in the 3-match home series. Dravid did well in the 3–2 series win against New Zealand in the bilateral ODI series, scoring 240 runs in 5 games at an average of 60 and a strike rate of 83.62, ending as the second highest scorer in the series. Dravid scored 157 runs in 4 matches of the tournament, at an average of 52.33, including 2 fifties. Dravid scored 85 runs in a match against Zimbabwe in the 2000–01 Coca-Cola Champions Trophy while opening the innings but was forced to miss the rest of the tournament because of an injury. Dravid played a brisk knock of 41 runs from 49 balls, including 5 fours and a six, while chasing a target of 63 runs. Dravid captained the Indian team for the first time in the fifth match of the bilateral ODI series against Zimbabwe in the absence of Ganguly who was serving suspension. Dravid failed in the first innings of the First Test but displayed strong resilience in Tendulkar's company in the second innings. 6 position. Dravid and Laxman played out the remaining time on the third day and whole of the fourth day, denying Australia any wicket on Day 4. Eventually, Laxman got out on the fifth morning bringing the 376-runs partnership to an end. Dravid soon perished getting run out for 180 while trying to force the pace. Dravid scored 81 runs in the first innings of the Third Test and took 4 catches in the match as India defeated Australia at Chennai in a nail biting finish to clinch the series 2–1. Dravid scored 80 in the first of the 5-match ODI series at his home ground as India won the match by 60 runs. Dravid topped the averages for the 2000/01 Test season with 839 runs from six matches at an average of 104.87. Dravid had a decent outing in Zimbabwe, scoring 137 runs from 134 balls in the First Tour game and aggregating 138 runs at an average of 69.00 from the drawn Test series. Dravid played crucial innings in all the three victories. Eventually, India lost the Final to Sri Lanka. Reinstated to his usual no. Dravid had decent success in Standard Bank tri-series on South Africa tour, scoring 214 runs (including 3 fifties) at an average of 53.50 and a strike rate of 71.81. Dravid captained the team in the 'unofficial' Third test in the absence of injured Ganguly, which India lost by an innings margin. Dravid hit the peak form of his career in 2002. Dravid had a decent outing in West Indies in 2002. Dravid played as designated keeper in six out of seven matches effecting nine dismissals (6 catches, 3 stumpings) - most by a keeper in the series. India lost the first of the four match Test series. Dravid completed his second hundred of the series in the process. Despite being outscored by Tendulkar, Dravid was awarded man of the match for his efforts. Dravid scored a double hundred in the drawn Fourth Test to notch up his second consecutive man of the match award of the series. Dravid aggregated 602 runs in the series from four matches at an average of 100.33, including three hundreds and a fifty and was adjudged joint man of the series along with Michael Vaughan. Dravid contributed to India's successful campaign with 120 runs at an average of 60.00 and five dismissals behind the wicket. Dravid scored a hundred in the First Test of the three match home series against West Indies becoming the first Indian batsman to score hundreds in four consecutive Test innings but had to retire soon after owing to severe cramps. Dravid did well in the subsequent bilateral 7-match ODI series aggregating 300 runs at an average of 75.00 and a strike rate of 89.82 including one hundred and two fifties. Dravid scored a hundred leading India to a successful chase. Dravid top scored for India in the two-match Test series in New Zealand as India slumped to a whitewash. Dravid arrived in South Africa with the Indian squad to participate in the 2003 Cricket World Cup in the capacity of first-choice keeper-batsman as part of their seven batsmen-four bowlers strategy - an experiment that had brought success to the team in the past year. Dravid contributed to India's campaign with 318 runs at an average of 63.60 and 16 dismissals (15 catches, 1 stumping). Dravid topped the international runs chart for 2003/04 cricket season across formats aggregating 1993 runs from 31 matches at an average of 64.29 including three double hundreds. Dravid scored 222 runs in the first innings and 73 runs in the second innings receiving a man of the match award for his efforts. Dravid captained Indian Test Team for the first time in the second game of the series at Mohali in the absence of Ganguly. Both the matches ended in a draw. Dravid top scored in the series with 313 runs at an average of 78.25. India lost to Australia in the Final. Dravid scored two fifties in the series but the highlight was his fifty against New Zealand in the ninth match that came in just 22 balls - second fastest fifty by an Indian. Sourav Ganguly, after Indian victory in the Adelaide Test. Dravid helped India tread through a tricky chase with an unbeaten fifty as India registered their first test victory in Australia since 1980/81 to go up 1-0 in the series. Dravid won the man of the match award for his efforts. Dravid registered a score of ninety each in the next two tests as Australia leveled the series 1-1. Dravid top scored for India in the series with 619 runs at an average of 123.80 and was awarded player of the series for his efforts. Dravid did moderately well in the ensuing VB series with three fifties in the league stage, all of which came in winning cause. Dravid was fined half his match fee for applying cough lozenge on the ball during a match in the series against Zimbabwe - an act that was claimed to be an innocent mistake by coach John Wright. Dravid top scored for India in the series with 248 runs at an average of 62.00 and a strike rate of 73.59. Dravid scored 99 runs in the First ODI helping India post an imposing total of 349. Dravid captained India in the first two tests in the absence of injured Ganguly and led India to their first-ever Test victory in Pakistan. Dravid slammed a double hundred in the Third Test at Rawalpindi - his third double hundred of the season. Dravid was adjudged man of the match for his effort. Dravid was appointed the captain for the Indian team for 2007 World Cup, where India had an unsuccessful campaign. 1 ranking in tests. Dravid failed in both innings in the third test at Birmingham, as India lost by an innings and 242 runs, one of the heaviest defeats in their history. After being selected, he announced that he would retire from ODI cricket after the series. Dravid had always been keen on further honing his batting skills in testing English conditions by playing in county cricket. Dravid himself had been struggling to score runs in Tests for quite some time now. Dravid made the most of this opportunity. Dravid hit another fifty in a draw against Surrey. Subsequently, Dravid returned to England to resume his county sojourn with Kent. Dravid came out on top. Dravid scored 73 not out in the 2nd innings guiding Kent to a six wicket victory as Warne went wicketless. Dravid made sure they stay put in the First Division by fetching that one bonus point with an inning of 77 runs. Dravid concluded a successful stint with Kent aggregating 1221 runs from 16 first class matches(15 county games and 1 tour game against Zimbabwe) at an average of 55.50 including 2 hundreds and 8 fifties. Dravid contributed to Kent's county campaign not just with the bat but also with his fielding and bowling taking 14 catches and 4 wickets at an average of 32.00. Dravid announced retirement from Twenty20 after playing the 2013 Champions League Twenty20 in Sept.-Oct 2013. Dravid is known for his technique, and had been one of the best batsmen for the Indian cricket team. Dravid has scored 36 centuries in Test cricket at an average of 53.19; this included five double centuries. Dravid is now a specialist batsman, averaging 63.51 in matches played since 1 January 2000. Dravid was involved in two of the largest partnerships in ODIs: a 318-run partnership with Sourav Ganguly, the first pair to combine for a 300-run partnership, and then a 331-run partnership with Sachin Tendulkar, which is a world record. Dravid went back to play for Karnataka in the Ranji Trophy, scoring 218 runs against Mumbai. For me, growing up, I dreamt of playing for India. Dravid is also one of the two batsmen to score 10,000 runs at a single batting position and is the fourth highest run scorer in Test Cricket, behind Tendulkar, Ponting and Kallis. Dravid was fined half of his match fee. Coincidentally, it was Dravid's 100th test match in which the Indians were all out for 100 runs in the second innings. Dravid is fluent in Marathi, Hindi, Kannada and English.
+
+
+SACHIN TENDULKAR
+
+ They were Ramesh's children by his first wife, who died after the birth of her third child. Prior to this, Tendulkar had attended the Indian Education Society's New English School in Bandra (East). Meanwhile, at school, he developed a reputation as a child prodigy. However, he was not selected for the final eleven in any of the matches, though he was often used as a substitute fielder. The Indian selection committee had shown interest in selecting Tendulkar for the tour of the West Indies held earlier that year, but eventually did not select him, as they did not want him to be exposed to the dominant fast bowlers of the West Indies so early in his career. He then scored 114 on a fast, bouncing pitch in the final Test at Perth against a pace attack comprising Merv Hughes, Bruce Reid and Craig McDermott. It took him 78 ODIs to score his first century. However, he was out when India needed 17 more runs to win, triggering a batting collapse, and India lost the match by 12 runs. However, he returned to the World Cup scoring a century (140 not out off 101 balls) in his very next match against Kenya in Bristol. However, by 1997 the team was performing poorly. It's not in the small one's destiny!". This can, under some conditions, amount to altering the condition of the ball. However, India lost the series. Prior to this Test match, he had had an unusually horrible run of form, failing in all six innings in the preceding three Tests. He secured the Man of the Match award. However, he failed in all six innings, scoring a total of 95 runs. However, during the following Australia tour of India, he returned to fitness and form, scoring 13 and 49 in the first Test before making 88 in the first innings of the second Test, breaking the record for most Test runs held by Brian Lara. The Indian tail collapsed, and Australia won the match by three runs. He then scored 106 in the first innings of the second Test, which was his 47th hundred in Test cricket. ... However his highest score in the Tests was 91; Tendulkar averaged 34.12 in the series as England won 4–0 as they deposed India as the No. 1 ranked Test side. However, because of a poor form in the first two Tests in the series against England, and India being humiliated in the second match of that series by 10 wickets on 26 November 2012, some people have started to question his place in the Indian team. This speculation, however, was later considered to be false. While Tendulkar is not a regular bowler, he can bowl medium pace, leg spin, and off spin. With his bowling, he has helped secure an Indian victory on more than one occasion. He bats at no. 4 in India in Tests." However, on God, Tendulkar himself is reported to have said "I am not God of cricket. I make mistakes, God doesn't."
+
+
+WORLD CUP
+
+ In the tournament phase, 32 teams, including the automatically qualifying host nation(s), compete for the title at venues within the host nation(s) over about a month. The 21 World Cup tournaments have been won by eight national teams. 17 countries have hosted the World Cup. The competition is sometimes described as The First World Cup, and featured the most prestigious professional club sides from Italy, Germany and Switzerland, but the FA of England refused to be associated with the competition and declined the offer to send a professional team. In the final, Uruguay defeated Argentina 4–2 in front of 93,000 people in Montevideo, and became the first nation to win the World Cup. The 1950 World Cup, held in Brazil, was the first to include British participants. In the tournaments between 1934 and 1978, 16 teams competed in each tournament, except in 1938, when Austria was absorbed into Germany after qualifying, leaving the tournament with 15 teams, and in 1950, when India, Scotland, and Turkey withdrew, leaving the tournament with 13 teams. In the edition of 25 October 2013 of the FIFA Weekly Blatter wrote that: "From a purely sporting perspective, I would like to see globalisation finally taken seriously, and the African and Asian national associations accorded the status they deserve at the FIFA World Cup. Platini said that he would allocate an additional berth to UEFA, two each to the Asian Football Confederation and the Confederation of African Football, two shared between CONCACAF and CONMEBOL, and a guaranteed place for the Oceania Football Confederation. Platini was clear about why he wanted to expand the World Cup. ... The competition is to bring all the people of all the world. If you don't give the possibility to participate, they don't improve." The latter three do not have a women's version, although a FIFA Women's Club World Cup has been proposed. From 1930 to 1970, the Jules Rimet Trophy was awarded to the World Cup winning team. After 1970, a new trophy, known as the FIFA World Cup Trophy, was designed. In the 2002 edition, fourth-place medals were awarded to hosts South Korea. In the group stage, teams compete within eight groups of four teams each. The next two World Cups were both held in Europe. For the 2010 and 2014 World Cups, the final tournament is rotated between confederations, allowing only countries from the chosen confederation (Africa in 2010, South America in 2014) to bid to host the tournament. For these companies and many more, being a sponsor strongly impacts their global brands. Each FIFA World Cup since 1966 has its own mascot or logo. In all, 79 nations have played in at least one World Cup. Of these, eight national teams have won the World Cup, and they have added stars to their badges, with each star representing a World Cup victory. With five titles, Brazil are the most successful World Cup team and also the only nation to have played in every World Cup (21) to date. Matthäus has played the most World Cup matches overall, with 25 appearances.
+
+
+CUPS
+
+ CUPS is free software, provided under the Apache License. CUPS was quickly adopted as the default printing system for most Linux distributions. The scheduler also provides a web-based interface for managing print jobs, the configuration of the server, and for documentation about CUPS itself. The scheduler allows for classes of printers. This converts the data to a format suitable for the printer. However, several other alternatives can integrate with CUPS. The PrinterSetup system can manage CUPS queues. etc.) CUPS was initially called "The Common UNIX Printing System".
+
+
